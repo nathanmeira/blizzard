@@ -2,22 +2,35 @@
   <div class="sidebar bg-gray-800 text-white px-5 w-64">
     <div class="logo">Blizzard Logo</div>
     <div class="mt-5 mb-5">
-      <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
-        <HomeIcon class="h-4" />
-        <span class="ml-4">Home</span>
-      </div>
-      <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
-        <StoreIcon class="h-4"/>
-        <span class="ml-4">Store</span>
-      </div>
-      <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
-        <GamesLibraryIcon class="h-4"/>
-        <span class="ml-4">Games Library</span>
-      </div>
-      <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
-        <CommunityIcon class="h-4"/>
-        <span class="ml-4">Community</span>
-      </div>
+      <nuxt-link to="/">
+        <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
+          <HomeIcon class="h-4" />
+
+            <span class="ml-4">Home</span>
+        </div>
+      </nuxt-link>
+
+      <nuxt-link to="store">
+        <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
+          <StoreIcon class="h-4"/>
+
+            <span class="ml-4">Store</span>
+        </div>
+      </nuxt-link>
+
+      <nuxt-link to="games-library">
+        <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
+          <GamesLibraryIcon class="h-4"/>
+            <span class="ml-4">Games Library</span>
+        </div>
+      </nuxt-link>
+
+      <nuxt-link to="community">
+        <div class="sidebar-item h-12 flex items-center hover:bg-indigo-900 hover:text-violet-400 transition-all rounded-md pl-2">
+          <CommunityIcon class="h-4"/>
+            <span class="ml-4">Community</span>
+        </div>
+      </nuxt-link>
     </div>
 
     <div class="mt-5">

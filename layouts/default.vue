@@ -3,22 +3,22 @@
     <Sidebar />
     <div class="flex flex-col flex-grow">
       <Navbar />
-      <Content />
+      <div class="content flex-grow p-4">
+        <NuxtPage />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import Sidebar from './components/Sidebar.vue';
-import Content from './components/Content.vue';
+import Navbar from '/components/Navbar.vue';
+import Sidebar from '/components/Sidebar.vue';
 
 export default {
   name: 'App',
   components: {
     Navbar,
     Sidebar,
-    Content,
   },
 };
 
