@@ -1,9 +1,9 @@
 <template>
-  <div class="flex h-screen">
+  <div class="flex h-screen font-poppins">
     <Sidebar />
     <div class="flex flex-col flex-grow">
       <Navbar />
-      <div class="content flex-grow p-4">
+      <div class="content flex-grow bg-[#15141b]">
         <NuxtPage />
       </div>
     </div>
