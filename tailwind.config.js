@@ -4,6 +4,10 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+      // add prettier plugin
+        require('tailwindcss'),
+        require('autoprefixer'),
+  ],
 }
 

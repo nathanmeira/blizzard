@@ -4,7 +4,7 @@
       <SearchIcon class="h-4"/>
       <span>Search for games</span>
     </div>
-    <div class="flex justify-between gap-8 flex items-center">
+    <div class="flex justify-between gap-8 items-center">
       <div>
         Friends
       </div>
